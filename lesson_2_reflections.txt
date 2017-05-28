@@ -1,0 +1,3 @@
+What happens when you initialize a repository?  WHy do you need to do it?
+
+	When you initialize a repository with the "git init" command, you create a special type of directory where version history is kept but hidden from the file control system.  You must create a repository to track file history and have effective version control.
