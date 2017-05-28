@@ -1,3 +1,9 @@
 What happens when you initialize a repository?  WHy do you need to do it?
 
 	When you initialize a repository with the "git init" command, you create a special type of directory where version history is kept but hidden from the file control system.  You must create a repository to track file history and have effective version control.
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+	The staging area is a placeholder while the repository and the working directory are actual file locations.  The staging area allows the user to "stage" files before actually committing them in the repository.  This gives the user flexibility to make changes to what files get committed.
+
+	
