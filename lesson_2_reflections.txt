@@ -6,4 +6,29 @@ How is the staging area different from the working directory and the repository?
 
 	The staging area is a placeholder while the repository and the working directory are actual file locations.  The staging area allows the user to "stage" files before actually committing them in the repository.  This gives the user flexibility to make changes to what files get committed.
 
-	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Once you've put a file in the staging area, you can run "git diff" which will show what changes were made between the working directory and the file in the staging area.  You can use this information to ensure that you are committing one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
+
+	Branches help when you are making substantial changes to your code, but you are not sure what the outcome will be (i.e. context switching).  For example, writing experimental features or creating different version.  Branches keep your history organized because it allows you to create new "baselines" from which to vary your projects.  Example:  master branch (production quality - always works); development branch (active work); experimental branch; unique feature branch.  Great for collaboration!!!
+
+How do diagrams help you visualize the branch structure?
+
+	Diagrams are a visual representation of the branch structure, which clearly delineate the relationships between the commits.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+	Merging two branches means git includes all the changes that have occurred in the two versions since the branches had a common parent.  The diagram representation is used to trace each commit back to a common parent.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+	Automatic merging allows repositories to merge with ease.  If it's easy to do, it will happen more often than if it were hard. Manual merging would be tedious and prone to error.
+
+
+
+
+
+
+
