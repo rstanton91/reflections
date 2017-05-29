@@ -6,3 +6,6 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	In general, the purpose of a repository is to share code.  You would want to manually pull changes so you can control the code baseline.
 
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+	
+	  Forks are Github clones of Github repositories.  Clones can be from Github to a local repository or local repository to local repository.  Branches are a completely different concept - they branch from a commit history so code can be changed without altering the code baseline.
