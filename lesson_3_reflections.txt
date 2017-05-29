@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  	A remote repository would allow you to collaborate with others.  It would be very difficult to share and keep version control over a local copy.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository
+
+	In general, the purpose of a repository is to share code.  You would want to manually pull changes so you can control the code baseline.
+
