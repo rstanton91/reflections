@@ -14,3 +14,6 @@ What is the benefit of having a copy of the last known state of the remote store
 
 	The benefit really comes with a collaboration.  This allows you to work on the last known state of the remote commit.  Now you have a common baseline from which to make changes with collaborators.  It acts as a placeholder.
 
+How would you collaborate without using Git or GitHub?  What be easier, and what would be harder?
+
+	Collaboration without version control software would be exceedingly difficult.  I would probably use master copies and backups to coordinate changes to computer code.  This would likely result in different developers working on different objects and then synthesizing those changes.  For other types of work, I would probably use Google Docs.
